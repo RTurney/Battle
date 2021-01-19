@@ -21,8 +21,13 @@ get '/no_save' do
   'This wont load'
 end
 
-get '/cat' do
+get '/random-cat' do
   random_name
+  erb(:index)
+end
+
+get '/named-cat' do
+  @name = params[:name]
   erb(:index)
 end
 
