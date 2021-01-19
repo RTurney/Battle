@@ -22,5 +22,10 @@ get '/no_save' do
 end
 
 get '/cat' do
+  random_name
   erb(:index)
+end
+
+def random_name
+  @name = ["Amigo", "Oscar", "Viking"].sample
 end
