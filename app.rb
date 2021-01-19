@@ -22,7 +22,5 @@ get '/no_save' do
 end
 
 get '/cat' do
-  '<div>
-  <img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png">
-  </div>'
+  erb(:index)
 end
