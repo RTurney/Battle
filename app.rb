@@ -32,7 +32,7 @@ post '/named-cat' do
   erb(:index)
 end
 
-get '/name-the-cat' do
+get '/name-the-cat' do 
   erb(:catform)
 end
 
