@@ -8,4 +8,6 @@ group :test, :development do
   gem 'sinatra'
   gem 'thin'
   gem 'shotgun'
+  gem 'capybara'
+  gem 'selenium-webdriver'
 end
